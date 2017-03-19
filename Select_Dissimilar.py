@@ -1,6 +1,13 @@
+#Peter S.
+#03/18/2017
+#Finds the mean building value for all parcels on the same street
+#   and then outputs parcels that are unusual based on user criteria
+#Some sources/help:
 #http://docs.qgis.org/testing/en/docs/pyqgis_developer_cookbook/vector.html#iterating-over-vector-layer
 #http://gis.stackexchange.com/questions/32521/is-there-a-way-to-use-select-by-attribute-in-qgis-using-a-python-command
+
 import numpy
+
 # Get the active layer (must be a vector layer)
 # iface.activeLayer() is the selected layer in the map view
 layParcel = iface.activeLayer()
